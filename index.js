@@ -1,6 +1,6 @@
 let i = 0;
 let images = [];
-let time = 1000;
+let time = 3000;
 
 //Images
 images[0] = "Images/1.jpeg";
@@ -16,7 +16,16 @@ function changeImage() {
     else {
         i = 0;
     }
+}
+//Button to Change Image
+let el = document.getElementById("myBtn");
+console.log(el);
+el.addEventListener("click", changeImage)
+
+//Function to start the Change Image Timer
+function changeImageStart() {
+    changeImage();
     setTimeout("changeImage()", time);
 }
+window.onload = changeImageStart;
 
-window.onload = changeImage;

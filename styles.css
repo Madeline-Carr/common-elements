@@ -2,3 +2,23 @@
     background-color: black;
     text-align: center;
 }
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 20%;
+    padding: 15px;
+    outline:0;
+}
+button:hover{
+    color: aliceblue; 
+    background-color: black;
+}
