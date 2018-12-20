@@ -1,14 +1,25 @@
 *{
     background-color: black;
     text-align: center;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+body{
+    margin: 0px;
 }
 .wrapper{
     width: 80%;
     margin: 0 auto;
 }
+h2{
+    background-color: aliceblue; 
+    color: black;
+    padding:10px;
+}
 button{
     background-color: aliceblue;
     border-radius: 30px;
+    cursor: pointer;
     display: block;
     color: black;
     text-align: center;
@@ -22,3 +33,13 @@ button:hover{
     color: aliceblue; 
     background-color: black;
 }
+/* Accordion */
+.accordion{
+    width: 100%;
+    border-radius: 0px;
+    transition: 0.4s;
+}
+.panel {
+    display: none;
+    overflow: hidden;
+  }

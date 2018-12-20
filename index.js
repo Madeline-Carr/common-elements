@@ -1,3 +1,4 @@
+//IMAGE SLIDER 
 let i = 0;
 let images = [];
 let time = 3000;
@@ -17,6 +18,7 @@ function changeImage() {
         i = 0;
     }
 }
+
 //Button to Change Image
 let el = document.getElementById("myBtn");
 console.log(el);
@@ -29,3 +31,4 @@ function changeImageStart() {
 }
 window.onload = changeImageStart;
 
+//ACCORDION
